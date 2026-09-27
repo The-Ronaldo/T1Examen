@@ -9,7 +9,6 @@ package exament1;
  * @author LENOVO
  */
 public class Paciente {
-    // Atributos privados (Encapsulamiento)
     private String nombreCompleto;
     private String tipoDocumento;
     private String numeroIdentificacion;
@@ -18,11 +17,8 @@ public class Paciente {
     private String telefono;
     private String correoElectronico;
 
-    // Constructor vacío
     public Paciente() {
     }
-
-    // Constructor con parámetros
     public Paciente(String nombreCompleto, String tipoDocumento, String numeroIdentificacion, 
        String tipoSangre, String listaAlergias, String telefono, String correoElectronico) {
         this.nombreCompleto = nombreCompleto;
@@ -33,8 +29,6 @@ public class Paciente {
         this.telefono = telefono;
         this.correoElectronico = correoElectronico;
     }
-
-    // Métodos Getters y Setters
     public String getNombreCompleto() {
         return nombreCompleto;
     }
