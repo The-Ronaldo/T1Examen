@@ -25,7 +25,7 @@ public class Controlador {
         if (listaPacientes.isEmpty()) {
             System.out.println("\nNo hay pacientes registrados en el sistema actualmente.");
         } else {
-            System.out.println("\n--- LISTA DE PACIENTES REGISTRADOS (HOSPITAL XYZ) ---");
+            System.out.println("\n****0 LISTA DE PACIENTES REGISTRADOS (HOSPITAL XYZ)****");
             for (Paciente p : listaPacientes) {
                 System.out.println(p.toString());
             }
