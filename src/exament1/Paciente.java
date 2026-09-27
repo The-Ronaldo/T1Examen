@@ -15,7 +15,7 @@ public class Paciente {
     private String listaAlergias;
     private String telefono;
     private String correoElectronico;
-
+    
     public Paciente() {
     }
     public Paciente(String nombreCompleto, String tipoDocumento, String numeroIdentificacion, 
